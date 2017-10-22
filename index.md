@@ -10,7 +10,6 @@
       <label for="pass">密码:</label>
       <input type="password"  name="pass" id="pass" value="" />    
       <input type="submit" value="确定"  name="submit" />
-      <input type="reset" value="重置" name="reset" />
 </form>  
 
 <table summary="成绩记录">
