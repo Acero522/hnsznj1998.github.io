@@ -10,7 +10,9 @@
       <label for="pass">密码:</label>
       <input type="password"  name="pass" id="pass" value="" />    
       <input type="submit" value="确定"  name="submit" />
+      <textarea cols="50" rows="10" >在这里输入内容...</textarea>
 </form>  
+
 
 <table summary="成绩记录">
  <li><a href="http://seer.61.com/" target="_blank" title="This is a good game" >good game</a> </li>
