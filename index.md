@@ -41,6 +41,14 @@
     <td>80</td>
     <td>2017-10-2</td>
   </tr>
+ 
+ <form action="save.php" method="post" >
+    <label>性别:</label><br />
+    <label>男</label>
+    <input type="radio" value="1"  name="gender" checked="checked" />
+    <label>女</label>
+    <input type="radio" value="2"  name="gender" />
+</form>
 </table>
 <a href="mailto:1234567@163.com" >对此网站有何感想，发送邮件给我</a> <br />
 <img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" />
