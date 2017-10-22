@@ -8,9 +8,9 @@
       <label for="username">用户名:</label>
       <input type="text"  name="username" id="username" value="" /> <br />
       <label for="pass">密码:</label>
-      <input type="password"  name="pass" id="pass" value="" />    
-      <input type="submit" value="确定"  name="submit" />
-      <textarea cols="50" rows="10" >在这里输入内容...</textarea>
+      <input type="password"  name="pass" id="pass" value="" />  <br />  
+      <input type="submit" value="确定"  name="submit" /> <br />
+      <textarea cols="50" rows="10">在这里输入内容...</textarea>
 </form>  
 
 
@@ -42,7 +42,7 @@
     <td>2017-10-2</td>
   </tr>
 </table>
-<a href="mailto:1234567@163.com" >对此网站有何感想，发送邮件给我</a>
+<a href="mailto:1234567@163.com" >对此网站有何感想，发送邮件给我</a> <br />
 <img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" />
 </body>
 </html>
