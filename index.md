@@ -6,9 +6,9 @@
 <body>
 <form method="post" action="save.php">
       <label for="username">用户名:</label>
-      <input type="text"  name="username" id="username" value="" /> <br />
+      <input type="text"  name="username" id="username"/> <br />
       <label for="pass">密码:</label>
-      <input type="password"  name="pass" id="pass" value="" />  <br />  
+      <input type="password"  name="pass" id="pass"/>  <br />  
       <input type="submit" value="确定"  name="submit" /> <br />
       <textarea cols="50" rows="10">在这里输入内容...</textarea>
 </form>  
