@@ -5,7 +5,7 @@
 
 <body>
 <table summary="成绩记录">
-  <li><a href="http://seer.61.com/" target="_blank" title="good game">good game</a> </li>
+  <li><a href="http://seer.61.com/" target="_blank"> title="good game">good game</a> </li>
   <caption>This is the Table webpage <br />三个班级成绩记录</caption>
   <tr>
     <th>班级</th>
