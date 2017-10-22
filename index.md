@@ -32,6 +32,6 @@
     <td>2017-10-2</td>
   </tr>
 </table>
-
+<a href="mailto:1234567@163.com" ?subject=网站感想。&body=你好，对此有些想法>对此网站有何感想，发送邮件给我</a>
 </body>
 </html>
