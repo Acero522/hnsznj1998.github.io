@@ -6,7 +6,7 @@
 <body>
 <form method="post" action="save.php">
       <label for="username">用户名:</label>
-      <input type="text"  name="username" id="username"/> <br />
+      <input type="text"  name="username" id="username" /> <br />
       <label for="pass">密码:</label>
       <input type="password"  name="pass" id="pass"/>  <br />  
       <input type="submit" value="确定"  name="submit" /> <br />
