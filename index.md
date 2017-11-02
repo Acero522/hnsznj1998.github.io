@@ -10,7 +10,7 @@
       <label for="pass">密码:</label>
       <input type="password"  name="pass" id="pass"/>  <br />  
       <input type="submit" value="确定"  name="submit" /> <br />
-      <textarea cols="50" rows="10">在这里输入内容</textarea>
+      <textarea cols="50" rows="10">在这里输入内容.......</textarea>
 </form>  
 
 
