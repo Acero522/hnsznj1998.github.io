@@ -12,11 +12,15 @@
       <input type="submit" value="确定"  name="submit" /> <br />
       <textarea cols="50" rows="10">在这里输入内容.......</textarea>
 </form>  
-
-
+<style type="text/css">
+h1{
+    font-size:12px;
+    color:red;	
+}
+</style>
 <table summary="成绩记录">
  <li><a href="http://seer.61.com/" target="_blank" title="This is a good game" >good game</a> </li>
-  <caption>This is the Table webpage <br />三个班级成绩记录</caption>
+      <caption><h1>This is the Table webpage</h1> <br />三个班级成绩记录</caption>
   <tr>
     <th>班级</th>
     <th>学生数</th>
