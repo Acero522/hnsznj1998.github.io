@@ -14,13 +14,14 @@
 </form>  
 <style type="text/css">
 h1{
-    font-size:12px;
-    color:red;	
+    font-size:20px;
+    color:green;	
 }
 </style>
 <table summary="成绩记录">
  <li><a href="http://seer.61.com/" target="_blank" title="This is a good game" >good game</a> </li>
-      <caption><h1>This is the Table webpage</h1> <br />三个班级成绩记录</caption>
+<h1>This is the Table webpage</h1> <br />
+      <caption>三个班级成绩记录</caption>
   <tr>
     <th>班级</th>
     <th>学生数</th>
