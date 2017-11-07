@@ -14,7 +14,7 @@
 </form>  
 <style type="text/css">
 h1{
-    font-size:20px;
+    font-size:25px;
     color:green;	
 }
 </style>
