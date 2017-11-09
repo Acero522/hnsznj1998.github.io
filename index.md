@@ -55,7 +55,7 @@ h1{
     <input type="radio" value="2"  name="gender" />
 </form>
 </table>
-<a href="mailto:1234567@163.com" >对此网站有何感想，发送邮件给我</a> <br />
+<a href="mailto:1776544379@qq.com" >对此网站有何感想，发送邮件给我</a> <br />
 <img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" />
 </body>
 </html>
