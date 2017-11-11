@@ -5,8 +5,8 @@
 
 <body>
 <form method="post" action="save.php">
-      <label for="username">用户名:</label>
-      <input type="text"  name="username"/> <br />
+      <label>用户名:</label>
+      <input type="text"/> <br />
       <label for="pass">密码:</label>
       <input type="password"  name="pass"/>  <br />  
       <input type="submit" value="确定"  name="submit" /> <br />
@@ -16,6 +16,7 @@
 h1{
     font-size:25px;
     color:green;	
+      text-indent:2em;
 }
 </style>
 <table summary="成绩记录">
