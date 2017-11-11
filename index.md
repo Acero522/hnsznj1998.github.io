@@ -16,7 +16,7 @@
 h1{
     font-size:25px;
     color:green;	
-      text-indent:2em;
+      text-align:center;
 }
 </style>
 <table summary="成绩记录">
