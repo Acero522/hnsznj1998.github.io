@@ -57,6 +57,6 @@ h1{
 </form>
 </table>
 <a href="mailto:1776544379@qq.com" >对此网站有何感想，发送邮件给我</a> <br />
-<img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" />
+<h1><img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" /></h1>
 </body>
 </html>
