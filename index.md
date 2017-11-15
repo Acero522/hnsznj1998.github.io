@@ -5,7 +5,7 @@
 <script type="text/javascript">
       function contxt() //定义函数
       {
-         alert("哈哈");
+         alert("buzai cnm");
       }
    </script>
 <body>
@@ -42,7 +42,7 @@ h1{
     <td>2017-10-1</td>
   </tr>
 <form>
-      <input type="button"  value="点击我" onclick="contxt()" />  
+      <input type="button"  value="点击我" onclick="contxt()" /> <br /> 
    </form>
 
  <form action="save.php" method="post" >
