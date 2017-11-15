@@ -18,7 +18,7 @@ h1{
     color:green;	
       text-align:center;
 }
-div{
+#div1{
     width:200px;
     height:200px;
     border:2px red solid;
