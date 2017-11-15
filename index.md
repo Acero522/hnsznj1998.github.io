@@ -35,19 +35,8 @@ h1{
     <td>89</td>
     <td>2017-10-1</td>
   </tr>
-  <tr>
-    <td>二班</td>
-    <td>35</td>
-    <td>85</td>
-    <td>2017-10-2</td>
-  </tr>
-  <tr>
-    <td>三班</td>
-    <td>32</td>
-    <td>80</td>
-    <td>2017-10-2</td>
-  </tr>
- 
+
+
  <form action="save.php" method="post" >
     <label>性别:</label><br />
     <label>男</label>
