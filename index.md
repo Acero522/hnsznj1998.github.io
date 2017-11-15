@@ -15,7 +15,7 @@
       <label for="pass">密码:</label>
       <input type="password"  name="pass"/>  <br />  
       <input type="submit" value="确定"  name="submit" /> <br />
-      <textarea cols="15" rows="15">在这里输入内容.......</textarea>
+      <textarea cols="10" rows="10">输入内容.......</textarea>
 </form>  
 <style type="text/css">
 h1{
@@ -44,8 +44,8 @@ h1{
   </tr>
       </table>
 <form>
-      <input type="button"  value="点击我" onclick="contxt()" /> <br /> 
-   </form>
+      <input type="button"  value="wei zaima?" onclick="contxt()" /> <br /> 
+   </form>
 
  <form>
     <label>性别:</label><br />
@@ -55,7 +55,7 @@ h1{
     <input type="radio" value="2"  name="gender" />
 </form>
 
-<a href="mailto:1776544379@qq.com" >对此网站有何感想，发送邮件给我</a> <br />
+<a href="mailto:11111@qq.com" >对此网站有何感想，发送邮件给我</a> <br />
 <h1><img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" /></h1>
 </body>
 </html>
