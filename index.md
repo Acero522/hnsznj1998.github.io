@@ -2,7 +2,12 @@
 <head>
 
 </head>
-
+<script type="text/javascript">
+      function contxt() //定义函数
+      {
+         alert("哈哈");
+      }
+   </script>
 <body>
 <form method="post" action="save.php">
       <label>用户名:</label>
@@ -18,14 +23,7 @@ h1{
     color:green;	
       text-align:center;
 }
-#div1{
-    width:200px;
-    height:200px;
-    border:2px red solid;
-    position:absolute;
-    right:100px;
-    top:20px;
-}
+
 </style>
 <table summary="成绩记录">
  <li><a href="http://seer.61.com/" target="_blank" title="This is a good game" >good game</a> </li>
@@ -43,7 +41,9 @@ h1{
     <td>89</td>
     <td>2017-10-1</td>
   </tr>
-<div id="div1"></div>
+<form>
+      <input type="button"  value="点击我" onclick="contxt()" />  
+   </form>
 
  <form action="save.php" method="post" >
     <label>性别:</label><br />
