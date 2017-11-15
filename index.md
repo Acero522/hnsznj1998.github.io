@@ -18,6 +18,14 @@ h1{
     color:green;	
       text-align:center;
 }
+      div{
+    width:200px;
+    height:200px;
+	border:2px red solid;
+	position:absolute;
+    right:100px;
+    top:20px;
+}
 </style>
 <table summary="成绩记录">
  <li><a href="http://seer.61.com/" target="_blank" title="This is a good game" >good game</a> </li>
@@ -35,7 +43,7 @@ h1{
     <td>89</td>
     <td>2017-10-1</td>
   </tr>
-
+<div id="div1"></div>
 
  <form action="save.php" method="post" >
     <label>性别:</label><br />
