@@ -9,7 +9,7 @@
       }
    </script>
 <body>
-<form method="post" action="save.php">
+<form>
       <label>用户名:</label>
       <input type="text"/> <br />
       <label for="pass">密码:</label>
@@ -45,7 +45,7 @@ h1{
       <input type="button"  value="点击我" onclick="contxt()" /> <br /> 
    </form>
 
- <form action="save.php" method="post" >
+ <form>
     <label>性别:</label><br />
     <label>男</label>
     <input type="radio" value="1"  name="gender" checked="checked" />
