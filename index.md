@@ -18,11 +18,11 @@ h1{
     color:green;	
       text-align:center;
 }
-      div{
+div{
     width:200px;
     height:200px;
-	border:2px red solid;
-	position:absolute;
+    border:2px red solid;
+    position:absolute;
     right:100px;
     top:20px;
 }
