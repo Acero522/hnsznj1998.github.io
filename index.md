@@ -15,7 +15,7 @@
       <label for="pass">密码:</label>
       <input type="password"  name="pass"/>  <br />  
       <input type="submit" value="确定"  name="submit" /> <br />
-      <textarea cols="10" rows="10">输入内容.......</textarea>
+      <textarea cols="5" rows="5">输入内容.......</textarea>
 </form>  
 <style type="text/css">
 h1{
@@ -25,17 +25,13 @@ h1{
 }
 
 </style>
-<li><a href="https://hnsznj1998.github.io/p1.html" title="test" >test1</a> </li>
+<li><a href="https://hnsznj1998.github.io/p1.html" title="test" >how to learn html(test1)</a> </li>
  <li><a href="http://seer.61.com/" target="_blank" title="This is a good game" >good game</a> </li>
 <h1>This is the Table webpage</h1> <br />
 
 <form>
       <input type="button"  value="wei zaima?" onclick="contxt()" /> <br /> 
    </form>
-
- 
-
-<a href="mailto:11111@qq.com" >对此网站有何感想，发送邮件给我</a> <br />
 <img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" />
 </body>
 </html>
