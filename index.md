@@ -25,7 +25,7 @@ h1{
 }
 
 </style>
-<li><a href="https://hnsznj1998.github.io/123.md" title="test" >test1</a> </li>
+<li><a href="https://hnsznj1998.github.io/123.html" title="test" >test1</a> </li>
  <li><a href="http://seer.61.com/" target="_blank" title="This is a good game" >good game</a> </li>
 <h1>This is the Table webpage</h1> <br />
    <table>
