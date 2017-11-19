@@ -19,7 +19,7 @@
 </form>  
 <style type="text/css">
 h1{
-    font-size:25px;
+    font-size:35px;
     color:green;	
     text-align:center;
 }
@@ -27,7 +27,7 @@ h1{
 </style>
 <li><a href="https://hnsznj1998.github.io/p1.html" title="test" >how to learn html(test1)</a> </li>
  <li><a href="http://seer.61.com/" target="_blank" title="This is a good game" >good game</a> </li>
-<h1>This is the Table webpage</h1> <br />
+<h1>This is Welcome page</h1> <br />
 
 <form>
       <input type="button"  value="wei zaima?" onclick="contxt()" /> <br /> 
