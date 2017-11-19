@@ -21,7 +21,7 @@
 h1{
     font-size:25px;
     color:green;	
-      text-align:center;
+    text-align:center;
 }
 
 </style>
@@ -36,6 +36,6 @@ h1{
  
 
 <a href="mailto:11111@qq.com" >对此网站有何感想，发送邮件给我</a> <br />
-<h1><img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" /></h1>
+<img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" />
 </body>
 </html>
