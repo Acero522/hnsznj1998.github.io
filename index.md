@@ -25,7 +25,7 @@ h1{
 }
 
 </style>
-<li><a href="https://hnsznj1998.github.io/p1.html" title="test" >how to learn html(test1)</a> </li>
+<li><a href="https://hnsznj1998.github.io/demo/page1.html" title="test" >how to learn html(test1)</a> </li>
  <li><a href="http://seer.61.com/" target="_blank" title="This is a good game" >good game</a> </li>
 <h1>This is Welcome page</h1> <br />
 
