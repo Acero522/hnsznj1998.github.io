@@ -32,6 +32,6 @@ h1{
 <form>
       <input type="button"  value="wei zaima?" onclick="contxt()" /> <br /> 
    </form>
-<img src = "http://www.pujia8.com/static/upload/20140520155407_28.jpg" alt = "加载失败" title = "good image" />
+<img src = "https://hnsznj1998.github.io/pic1.jpg" alt = "加载失败" title = "good image" />
 </body>
 </html>
