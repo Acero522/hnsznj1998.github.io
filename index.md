@@ -19,7 +19,7 @@
 </form>  
 <style type="text/css">
 h1{
-    font-size:35px;
+    font-size:60px;
     color:green;	
     text-align:center;
 }
