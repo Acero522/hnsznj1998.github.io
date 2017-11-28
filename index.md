@@ -44,7 +44,7 @@ h2{
 <li><a href="https://hnsznj1998.github.io/demo/page1.html" title="test" >How to learn html</a> </li>
 
 <div class="divcss5" style="background-image:url(https://hnsznj1998.github.io/pic1.jpg)">
-<span>Cool stuff don't knwo how to use</span>
+<span>Cool stuff don't know where to use</span>
 <a href="https://hnsznj1998.github.io/demo/page1.html" class="now"></a> 
 </div> 
 
