@@ -26,7 +26,7 @@ h1{
 
 </style>
 <li><a href="https://hnsznj1998.github.io/demo/page1.html" title="test" >how to learn html(test)</a> </li>
- <li><a href="https://aidn.jp/mikutap//" target="_blank" title="fun web" >good game</a> </li>
+ <li><a href="https://aidn.jp/mikutap//" target="_blank" title="fun web" >fun web</a> </li>
 <h1>This is Welcome page</h1> <br />
 
 <form>
