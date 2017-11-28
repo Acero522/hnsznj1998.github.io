@@ -9,14 +9,7 @@
       }
    </script>
 <body>
-<form>
-      <label>用户名:</label>
-      <input type="text"/> <br />
-      <label for="pass">密码:</label>
-      <input type="password"  name="pass"/>  <br />  
-      <input type="submit" value="确定"  name="submit" /> <br />
-      <textarea cols="5" rows="5">输入内容.......</textarea>
-</form>  
+
 <style type="text/css">
 h1{
     font-size:60px;
@@ -26,7 +19,7 @@ h1{
 
 </style>
 <li><a href="https://hnsznj1998.github.io/demo/page1.html" title="test" >how to learn html(test)</a> </li>
- <li><a href="https://aidn.jp/mikutap//" target="_blank" title="fun web" >fun web</a> </li>
+ <li><a href="https://aidn.jp/mikutap//" target="_blank" title="fun web" >Fun web</a> </li>
 <h1>This is Welcome page</h1> <br />
 
 <form>
