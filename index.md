@@ -5,7 +5,7 @@
 <script type="text/javascript">
       function contxt() //定义函数
       {
-         alert("buzai cnm");
+         alert("Yes I am.");
       }
    </script>
 <body>
@@ -23,7 +23,7 @@ h1{
 <h1>This is Welcome page</h1> <br />
 
 <form>
-      <input type="button"  value="wei zaima?" onclick="contxt()" /> <br /> 
+      <input type="button"  value="Are you ready?" onclick="contxt()" /> <br /> 
    </form>
 <img src = "https://hnsznj1998.github.io/pic1.jpg" alt = "加载失败" title = "good image" />
 </body>
