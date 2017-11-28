@@ -24,20 +24,27 @@ h1{
     color:green;	
     text-align:center;
 }
-
+h2{
+ font-size:30px;
+ color:black;
+ text-align:left;
+ }
 </style>
-<li><a href="https://hnsznj1998.github.io/demo/page1.html" title="test" >how to learn html</a> </li>
+<h1>This is Welcome page</h1> <br />
+<h2>some fun web I recommened</h2><br />
  <li><a href="https://aidn.jp/mikutap//" target="_blank" title="fun web" >Fun web</a> </li>
   <li><a href="http://mrdoob.com/lab/javascript/effects/solitaire/?url_type=39&object_type=webpage&pos=1&url_type=39&object_type=webpage&pos=1" target="_blank" title="fun web2" >Fun web NO.2</a> </li>
-<h1>This is Welcome page</h1> <br />
+
+
 
 <form>
       <input type="button"  value="Are you ready?" onclick="contxt()" /> <br /> 
    </form>
 
+<li><a href="https://hnsznj1998.github.io/demo/page1.html" title="test" >How to learn html</a> </li>
 
 <div class="divcss5" style="background-image:url(https://hnsznj1998.github.io/pic1.jpg)">
-<span>DIVCSS5</span>
+<span>Cool stuff don't knwo how to use</span>
 <a href="https://hnsznj1998.github.io/demo/page1.html" class="now"></a> 
 </div> 
 
