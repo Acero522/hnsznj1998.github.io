@@ -1,26 +1,89 @@
 <html>
 <head>
 <style type="text/css">
-#button{width: 53px;height: 50px;position: fixed;left: 90%;bottom: 30px;background: red;background: url(up.jpg);}
+#button{
+	width: 53px;
+	height: 50px;
+	position: fixed;
+	left: 90%;
+	bottom: 30px;
+	background: red;
+	background: url(up.jpg);
+}
 #button:hover {background: url(up1.jpg) no-repeat;}/*返回按键*/
-h1{font-size:35px;color:black;text-align:center;}
+h1{
+	font-size:35px;
+	color:black;
+	text-align:center;
+}
 
-.main{width: 1300px;margin: 80px auto}
-.top{top:0px;position: fixed;
-	width:100%;height: 80px;background:#99ffcc;}
-.left{width: 20%;height: 1500px;float: left;background: #ccc}
-.right{width: 80%;height: 1500px;float: right;background: #ddd}
+.main{
+	width: 1300px;
+	margin: 80px auto
+}
+.top{
+	top:0px;
+	position: fixed;
+	width:100%;
+	height: 80px;
+	background:#99ffcc;
+}
+.left{width: 15%;
+	height: 1000px;
+	float: left;
+	background: #ccc
+}
+.right{
+	width: 85%;
+	height: 1000px;
+	float: right;
+	background: #ddd
+}
 </style>
 
 <style>
 ul{list-style:none;}
-a{display: block;color: green;font-size: 25px;text-decoration: none;
-	height: 50px;line-height: 20px;width: 200px;margin-bottom: 1px;background-color:#ccc;text-indent: 48px}
+a{
+	display: block;
+	color: green;
+	font-size: 25px;text-decoration: none;
+	height: 50px;
+	line-height: 20px;width: 200px;
+	margin-bottom: 1px;background-color:#ccc;
+	text-indent: 48px
+}
 a:hover{background-color: #f60;color: #fff}/*侧栏*/
 </style>
-<script type="text/javascript" src="javascript.js"></script>
-</head>
 
+<script type="text/javascript" src="javascript.js"></script>
+
+ <style type="text/css">  /*动态背景*/
+        *{  
+            margin: 0px;
+            padding: 0px;  
+        }  
+        video{  
+            position: fixed;
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto; 
+            z-index: -10; /*堆叠顺序*/
+            /* (黑白)*/
+            /*filter:grayscale(100%); */
+        }  
+        source{  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+        } 
+</style>
+
+
+</head>
 
 <body>
 
@@ -29,6 +92,7 @@ a:hover{background-color: #f60;color: #fff}/*侧栏*/
 	
 	<div class="left"> 
 <ul>
+	<br><br />
 	<li><a href="https://hnsznj1998.github.io/p1">shabi1</a></li>
 	<li><a href="https://hnsznj1998.github.io/p2">shabi2</a></li>
 	<li><a href="https://hnsznj1998.github.io/p3">shabi3</a></li>
@@ -40,6 +104,10 @@ a:hover{background-color: #f60;color: #fff}/*侧栏*/
 	<div class="right"></div>
 </div>
 <a href="javascript:;" id="button"></a>
+
+<video autoplay="autoplay" loop="loop" style="width: 100%;">
+<source src="bg-video.mp4">
+</video>
 </body>
 
 </html>
