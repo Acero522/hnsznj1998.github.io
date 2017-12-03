@@ -17,7 +17,7 @@ body{text-align:center;}
          alert("Here we go!");
       }
    </script>
-<body> 
+ 
 <style type="text/css">
 h1{
     font-size:60px;
@@ -35,6 +35,33 @@ h2{
  	color:green;
  }
 </style>
+ 
+ <style type="text/css">  /*动态背景*/
+        *{  
+            margin: 0px;  
+            padding: 0px;  
+        }  
+        video{  
+            position: fixed;  
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto; 
+            z-index: -10; /*堆叠顺序*/
+            /* (黑白)*/
+            /*filter:grayscale(100%); */
+        }  
+        source{  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+        } 
+</style>
+ 
+ <body>
 <h1>This is Welcome page</h1> <br />
  <p>
     <iframe name="iframe_canvas" 
