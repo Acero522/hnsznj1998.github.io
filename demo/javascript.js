@@ -7,7 +7,7 @@ window.onload = function(){
 		timer = setInterval(function(){
 			//获取距离顶部高度
          var toTop = document.documentElement.scrollTop || document.body.scrollTop;
-		  document.documentElement.scrollTo=document.body.scrollTop -= 5;
+		  document.documentElement.scrollTo=document.body.scrollTop -= 20;
 		  if (toTop ==0) {
 		  	clearInterval(timer);
 		  }
