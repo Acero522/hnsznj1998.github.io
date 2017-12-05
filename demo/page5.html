@@ -1,0 +1,155 @@
+<html>
+<title>Illustration</title>
+<head>
+<style type="text/css">
+#button{
+	width: 53px;
+	height: 50px;
+	position: fixed;
+	left: 90%;
+	bottom: 30px;
+	background: red;
+	background: url(up.jpg);
+}
+#button:hover {background: url(up1.jpg) no-repeat;}/*返回按键*/
+
+h1{
+	font-size:35px;
+	color:black;
+	text-align:center;
+}
+h4{
+	text-decoration: none;
+}
+.music{
+	position: fixed;
+	right: 80%;
+	top: 100px;
+}
+
+.main{
+	width: 1050px;
+	margin: 80px auto
+}
+.top{
+	 z-index: 10;
+	top:0px;
+	position: fixed;
+	width:100%;
+	height: 80px;
+	background:#99ffcc;
+}
+.left{opacity:0.85;
+   filter:alpha(opacity=20);/*针对ie8以前*/
+	width: 15%;
+	height: 1000px;
+	float: left;
+	background: #ccc
+}
+.right{
+	opacity:0.55;
+   filter:alpha(opacity=20);/*针对ie8以前*/
+	width: 85%;
+	height: 1000px;
+	float: right;
+	background: #ddd
+}
+</style>
+
+
+<style>
+
+ul{list-style:none}
+a{
+	
+	display: block;
+	color: green;
+	font-size: 13px;text-decoration: none;
+	height: 50px;
+	line-height: 50px;width: 157.5px;
+	margin-bottom: 8px;background-color:#ccc;
+	text-indent: 25px
+}
+a:hover{background-color: #f60;color: #fff}/*侧栏*/
+</style>
+
+<script type="text/javascript" src="javascript.js"></script>
+
+ <style type="text/css">  /*动态背景*/
+        *{  
+            margin: 0px;
+            padding: 0px;  
+        }  
+        video{  
+            position: fixed;
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto; 
+            z-index: -10; /*堆叠顺序*/
+            /* (黑白)*/
+            /*filter:grayscale(100%); */
+        }  
+        source{  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+        } 
+</style>
+
+
+</head>
+
+<body>
+
+<div class="top"><h1>How to learn HTML</h1></div>
+<div class="main">
+	
+	<div class="left"> 
+
+<ul>
+	<br /><br />
+	<li><b style="font-size: 23px">Html Tutorial</li>
+	<li>&nbsp;</li>
+	<li><a href="page1.html" target="_blank">HTML Introduction</a></li>
+	<li><a href="page2.html" target="_blank">HTML Tages</a></li>
+	<li><a href="page3.html" target="_blank">HTML Editors</a></li>
+	<li><a href="page4.html" target="_blank">HTML Basic</a></li>
+    <li><a href="page5.html" target="_blank">Illustration</a></li>
+	</ul>
+	</div>
+	
+	<div class="right">
+		<h1>Illustration</h2><br />
+<p>The text content of former pages is based on w3schools(www.w3schools.com).<br />All other things such as frame,design and Typesetting were made by myself.
+<br />The background-video is from one of my favorite games Battlefield4.
+<br />The backgroundmusic is form Netease Music.They provide every music on their web with a iframe code.<br /><br />
+Because I spent too much time on design and adjusted the frame（My bad). I don't have enough time to do with the text content.And I also forget to check the Web Authoring and Design website, so I don't know there is a deadline and need to sumbit the zip on it,I thought update the github page is enough.I knew the information just now form my classmate.
+<br />
+And I apologize for the delay.
+</p>
+
+
+
+
+
+</div>
+
+
+
+<a href="javascript:;" id="button"></a>
+
+<div class="music">
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=33469292&auto=1&height=32"></iframe>
+</div>
+
+<video autoplay="autoplay" loop="loop" style="width: 100%;">
+<source src="bg-video.mp4">
+</video>
+
+</body>
+
+</html>
