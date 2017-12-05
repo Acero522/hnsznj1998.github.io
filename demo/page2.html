@@ -1,0 +1,197 @@
+<html>
+<title>Html Tags</title>
+<head>
+<style type="text/css">
+#button{
+	width: 53px;
+	height: 50px;
+	position: fixed;
+	left: 90%;
+	bottom: 30px;
+	background: red;
+	background: url(up.jpg);
+}
+#button:hover {background: url(up1.jpg) no-repeat;}/*返回按键*/
+
+h1{
+	font-size:35px;
+	color:black;
+	text-align:center;
+}
+
+.music{
+	position: fixed;
+	right: 80%;
+	top: 100px;
+}
+
+.main{
+	width: 1050px;
+	margin: 80px auto
+}
+.top{
+	 z-index: 10;
+	top:0px;
+	position: fixed;
+	width:100%;
+	height: 80px;
+	background:#99ffcc;
+}
+.left{opacity:0.85;
+   filter:alpha(opacity=20);/*针对ie8以前*/
+	width: 15%;
+	height: 1700px;
+	float: left;
+	background: #ccc
+}
+.right{
+	opacity:0.55;
+   filter:alpha(opacity=20);/*针对ie8以前*/
+	width: 85%;
+	height: 1700px;
+	float: right;
+	background: #ddd
+}
+</style>
+
+<style>
+ul{list-style:none}
+a{
+	
+	display: block;
+	color: green;
+	font-size: 13px;text-decoration: none;
+	height: 50px;
+	line-height: 50px;width: 157.5px;
+	margin-bottom: 8px;background-color:#ccc;
+	text-indent: 25px
+}
+a:hover{background-color: #f60;color: #fff}/*侧栏*/
+</style>
+
+<script type="text/javascript" src="javascript.js"></script>
+
+ <style type="text/css">  /*动态背景*/
+        *{  
+            margin: 0px;
+            padding: 0px;  
+        }  
+        video{  
+            position: fixed;
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto; 
+            z-index: -10; /*堆叠顺序*/
+            /* (黑白)*/
+            /*filter:grayscale(100%); */
+        }  
+        source{  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+        } 
+</style>
+
+
+</head>
+
+<body>
+
+<div class="top"><h1>How to learn HTML</h1></div>
+<div class="main">
+	
+	<div class="left"> 
+
+<ul>
+	<br /><br />
+<li><b style="font-size: 23px">Html Tutorial</li>
+	<li>&nbsp;</li>
+	<li><a href="page1.html" target="_blank">HTML Introduction</a></li>
+	<li><a href="page2.html" target="_blank">HTML Tages</a></li>
+	<li><a href="page3.html" target="_blank">HTML Editors</a></li>
+	<li><a href="page4.html" target="_blank">HTML Basic</a></li>
+    <li><a href="page5.html" target="_blank">Illustration</a></li>
+	</ul>
+	</div>
+	
+	<div class="right">
+		<h1>HTML Tags</h2><br />
+
+<p>HTML tags are element names surrounded by angle brackets:</p><br />
+
+<div style="width:600px;height:37px;border:1px solid blue;float:left;background-color: #99ffcc">
+<font size="5" color="black">&lt;tagname&gt;content goes here...&lt;/tagname&gt;</font>
+</div>
+
+<br /><br /><br />
+<ul>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1HTML tags normally come <b>in pairs</b> like &lt;p&gt; and &lt;/p&gt;</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2The first tag in a pair is the <b> start tag,</b> the second tag is the <b> end tag</b></li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3The end tag is written like the start tag, but with a <strong>forward slash</strong> 
+inserted before the tag name </li>
+</ul><br />
+<div style="width:700px;height:30px;border:1px solid blue;float:left;background-color: yellow">
+  <p><strong>Tip:</strong> The start tag is also called the <b>opening tag</b>, and the end tag the <b>closing tag</b>.</p>
+</div>
+<br /><br /><br /><br />
+
+<h2>HTML Page Structure with Tags</h2><br />
+<p>Below is a visualization of an HTML page structure:</p>
+<div style="width:99%;border:1px solid grey;padding:3px;margin:0;background-color:#ddd">&lt;html&gt;
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px">&lt;head&gt;
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;title&gt;Page title&lt;/title&gt;
+</div>
+&lt;/head&gt;
+</div>
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#ddd">&lt;body&gt;
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#fff">
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;h1&gt;This is a heading&lt;/h1&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is another paragraph.&lt;/p&gt;</div>
+</div>
+&lt;/body&gt;
+</div>
+&lt;/html&gt;
+</div>
+<br />
+<div style="width:800px;height:30px;border:1px solid blue;float:left;background-color: yellow">
+<p><strong>Note:</strong> Only the content inside the &lt;body&gt; section (the white area above) is displayed in a browser.</p>
+</div>
+<br /><br /><br />
+
+<h2>The &lt;!DOCTYPE&gt; Declaration</h2><br />
+<p>The &lt;!DOCTYPE&gt; declaration represents the document type, and helps browsers to display web pages correctly.</p>
+<p>It must only appear once, at the top of the page (before any HTML tags). </p>
+<p>The &lt;!DOCTYPE&gt; declaration is not case sensitive.</p>
+<p>The &lt;!DOCTYPE&gt; declaration for HTML5 is:</p>
+<div>
+<strong>
+&lt;!DOCTYPE html&gt;</strong>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<a href="javascript:;" id="button"></a>
+
+<div class="music">
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=33469292&auto=1&height=32"></iframe>
+</div>
+
+<video autoplay="autoplay" loop="loop" style="width: 100%;">
+<source src="bg-video.mp4">
+</video>
+
+</body>
+
+</html>
